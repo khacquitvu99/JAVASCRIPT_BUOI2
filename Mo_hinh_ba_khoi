@@ -1,0 +1,54 @@
+*Lương Nhân Viên*
+---Dữ Liệu đàu vào:
+- nhập vào số ngày làm
+- nhập vào lương một ngày công
+
+--Xử lý:
+- lấy dữ liệu ngày làm nhân với lương một ngày công
+- Kết quả vừa tính đuoc là kết quả tổng luong
+
+-- Xuất dữ liệu ra màn hình Tổng lương
+
+*Quy đỏi ngoại tệ*
+--Dữ liệu đầu vào:
+- Nhập vào số tiền cần đổi
+- nhập vào giá trị ngoại tệ
+
+--Xử lý
+- Lấy dữ liệu số tiền cần đổi nhân với giá trị ngoại tệ
+- kết quả vừa đựt được là tổng tiền cần quy đổi
+
+--Xuất dũ liệu tiền cần quy đổi ra man hình
+
+*Diện tích, chu vi HCN*
+--Dữ liệu đàu vào:
+- Nhập chiều dài cạnh
+- Nhập chiều rộng cạnh
+
+--Xử Lý
+- Lấy dữ liệu chiều dài nhân rộng, được kết quả diện tích
+- Lấy dữ liệu chiều dài cộng rộng nhân 2, được két quả chu vi
+
+--Xuất hai dữ liệu Diện tích và Chu vi ra màn hình
+
+*Tính Trung bình 5 số*
+--Dữ liệu đàu vào:
+- Nhập vào 5 số cần tính
+
+--Xử Lý:
+- Tính tổng 5 số
+- lấy kết quả vừa tính chia cho 5
+- Được kết quả trung bình cần tính
+
+--Xuất giá trị trung bình ra màn hình
+
+*Tổng hai ký số*
+--Dữ liệu đàu vào:
+- Nhập số n có hai ký tự
+
+--Xử Lý:
+- Lây số n chia lấy phần dư
+- Lấy số n chia lấy phần nguyên
+- Lấy 2 kết quả vừa tính được (nguyên,dư) cộng lại được giá trị tổng cần tính
+
+-- Xuất dữu liệu tổng cần tính ra màn hình

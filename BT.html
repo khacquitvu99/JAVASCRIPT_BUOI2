@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoi_9</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="content">
+        <!-- Tính lương nhân vien -->
+        <table id="luong">
+            <tr align="center">
+                <td colspan="2">
+                    <h1>Lương Nhân Viên</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><a>Lương 1 ngày công:</a></td>
+                <td><input type="number" value="100000" id="txt_luong"></td>
+            </tr>
+            <tr>
+                <td><a>Số Ngày làm: </a></td>
+                <td><input type="number" placeholder="Nhập vào số ngày" id="txt_songay"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <div id="kq_luong" class="kq"></div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><button id="btn_luong">Tính Lương</button></td>
+            </tr>
+        </table>
+        <!-- Quy đổi ngoại tệ -->
+        <table id="quy__doi">
+            <tr align="center">
+                <td colspan="2">
+                    <h1>Quy Đổi Tiền</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><a>Đơn giá ngoại tệ:</a></td>
+                <td><input type="number" value="23000" id="txt_gia"></td>
+            </tr>
+            <tr>
+                <td><a>Số tiền cần đổi:</a></td>
+                <td><input type="number" placeholder="Nhập số tiền" id="txt_sotien"></td>
+            </tr>
+            <tr class="">
+                <td colspan="2" align="center">
+                    <div id="kq_quydoi" class="kq"></div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><button id="btn_quydoi">Quy Đổi</button></td>
+            </tr>
+        </table>
+        <!-- Tính diện tích, chu vi hình chữ nhật -->
+        <table id="hcn">
+            <tr align="center">
+                <td colspan="2">
+                    <h1>Diện tích-Chu vi HCN</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><a>Chiều dài HCN:</a></td>
+                <td><input type="number" placeholder="Nhập vào chiều dài" id="txt_dai"></td>
+            </tr>
+            <tr>
+                <td><a>Chiều rộng HCN:</a></td>
+                <td><input type="number" placeholder="Nhập vào chiều rộng" id="txt_rong"></td>
+            </tr>
+            <tr class="">
+                <td colspan="2" align="center">
+                    <div class="kq" id="kq_hcn"></div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><button id="btn_hcn">Tính Toán</button></td>
+            </tr>
+        </table>
+        <!-- Tính tổng 2 ký số -->
+        <table id="ky__so">
+            <tr align="center">
+                <td colspan="2">
+                    <h1>Tổng 2 Ký Số</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><a>Ký Số:</a></td>
+                <td><input type="number" placeholder="Nhập vào số có 2 chữ số: " id="txt_kyso"></td>
+            </tr>
+            <tr class="">
+                <td colspan="2" align="center">
+                    <div id="kq_kyso" class="kq"></div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <button id="btn_kyso">Tính Ký Số</button>
+                </td>
+            </tr>
+        </table>
+        <!-- Tính giá trị trung bình 5 số  -->
+        <table id="trung__binh">
+            <tr align="center">
+                <td colspan="4">
+                    <h1>Trung Bình 5 Số</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><a>Số thư 1:</a></td>
+                <td><input type="number" placeholder="Nhập vào số thu 1" id="txt_so1"></td>
+                <td><a>Số thư 4:</a></td>
+                <td><input type="number" placeholder="Nhập vào số thu 4" id="txt_so4"></td>
+            </tr>
+            <tr>
+                <td><a>Số thư 2:</a></td>
+                <td><input type="number" placeholder="Nhập vào số thu 2" id="txt_so2"></td>
+                <td><a>Số thư 5:</a></td>
+                <td><input type="number" placeholder="Nhập vào số thu 5" id="txt_so5"></td>
+            </tr>
+            <tr>
+                <td><a>Số thư 3:</a></td>
+                <td><input type="number" placeholder="Nhập vào số thu 3" id="txt_so3"></td>
+
+            </tr>
+
+            <tr class="">
+                <td colspan="4" align="center">
+                    <div id="kq_trungbinh" class="kq"></div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="4"><button id="btn_trungbinh">Tính Trung Bình</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Conect to JavaScript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
